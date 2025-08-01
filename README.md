@@ -1,7 +1,7 @@
 
-# DevOps Demo - Dockerized Spring Boot App
+#Dockerized Spring Boot App
 
-This is a simple Spring Boot application packaged inside a Docker container. It’s designed to demonstrate basic DevOps principles — containerization, local deployment, and later cloud deployment with CI/CD.
+This is a  Spring Boot application packaged inside a Docker container. It’s designed to demonstrate basic DevOps principles — containerization, local deployment, and later cloud deployment with CI/CD.
 
 ---
 
