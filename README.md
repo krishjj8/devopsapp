@@ -1,12 +1,11 @@
-cat > README.md << 'EOF'
-\`\`\`markdown
+
 # DevOps Demo - Dockerized Spring Boot App
 
 This is a simple Spring Boot application packaged inside a Docker container. It’s designed to demonstrate basic DevOps principles — containerization, local deployment, and later cloud deployment with CI/CD.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Java 17  
 - Spring Boot  
@@ -17,7 +16,7 @@ This is a simple Spring Boot application packaged inside a Docker container. It�
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 devopsdemo/
 ├── Dockerfile          # Docker build instructions  
@@ -28,7 +27,7 @@ devopsdemo/
 
 ---
 
-## 🚀 Running Locally with Docker
+## Running Locally with Docker
 
 ### 1. Build the JAR file
 mvn clean package
@@ -40,7 +39,7 @@ docker build -t devopsapp .
 docker run -p 8080:8080 devopsapp
 
 Then visit:  
-http://localhost:8080
+http://localhost:8080/hello
 
 ---
 
@@ -54,16 +53,16 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 ## 🖼 Screenshot
 
-![App Screenshot](Screenshot%20From%202025-08-02%2003-49-16.png)
+![Screenshot](hello.png)
 
 ---
 
-## 📦 Future Scope
+##  Future Scope
 
-- ✅ AWS EC2 deployment (in progress)  
-- ✅ GitHub Actions CI/CD  
-- 📊 Monitoring with Prometheus/Grafana  
-- 📁 Logs with ELK stack  
+-  AWS EC2 deployment (in progress)  
+-  GitHub Actions CI/CD  
+-  Monitoring with Prometheus/Grafana  
+-  Logs with ELK stack  
 
 ---
 
