@@ -66,8 +66,3 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 ---
 
-## 📜 License
-
-This project is for **educational and demo** purposes.
-\`\`\`
-EOF
